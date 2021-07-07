@@ -26,7 +26,7 @@ public class BottomSheetCommunicator: NSObject {
         
         // Adding Animation Controler
         var bottomSheetPopupVC = BottomSheetViewController(nibName: "BottomSheetViewController", bundle: Bundle(for: BottomSheetViewController.self))
-        animatorController.addChildViewController(bottomSheetPopupVC)
+        animatorController.addChild(bottomSheetPopupVC)
         animatorController.view.addSubview(bottomSheetPopupVC.view)
         bottomSheetPopupVC.view.frame = CGRect(x: 0, y: animatorController.view.frame.maxY, width: animatorController.view.frame.width, height: animatorController.view.frame.height)
         
@@ -41,13 +41,13 @@ public class BottomSheetCommunicator: NSObject {
         animatorController.view.addSubview(outsideControl)
         
         // Add bottom sheet view
-        bottomSheetVC.didMove(toParentViewController: animatorController)
+        bottomSheetVC.didMove(toParent: animatorController)
             
         // Contentview controller Add
         contentViewController.view.frame = CGRect(x: 0, y: 60, width: animatorController.view.frame.width, height: animatorController.view.frame.height-190)
-        bottomSheetVC.addChildViewController(contentViewController)
+        bottomSheetVC.addChild(contentViewController)
         bottomSheetVC.view.addSubview(contentViewController.view)
-        bottomSheetVC.didMove(toParentViewController: contentViewController)
+        bottomSheetVC.didMove(toParent: contentViewController)
 
     }
     

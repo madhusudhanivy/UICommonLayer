@@ -24,9 +24,7 @@ extension BottomSheetViewController {
 class BottomSheetViewController: UIViewController {
     
     @IBOutlet weak var fieldsLayerView: UIView!
-    
-//    var bottomSheetCommunicator: BottomSheetCommunicator!
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         let gesture = UIPanGestureRecognizer.init(target: self, action: #selector(panGesture))
