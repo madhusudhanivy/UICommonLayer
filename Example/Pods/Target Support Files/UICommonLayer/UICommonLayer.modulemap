@@ -1,0 +1,6 @@
+framework module UICommonLayer {
+  umbrella header "UICommonLayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

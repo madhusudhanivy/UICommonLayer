@@ -28,13 +28,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/madhusudhanivy/UICommonLayer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'UICommonLayer/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'UICommonLayer' => ['UICommonLayer/Assets/*.png']
-  # }
+  s.source_files = 'Source/**/*.{swift, c,h,m,mm,cpp,a,framework,pch}'
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios": "11.0"
+  }
+  s.resource_bundles = {
+      'BottomSheetLayer' => ['Source/**/*.xcassets', 'Source/**/*.xib', 'Source/**/*.storyboard']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

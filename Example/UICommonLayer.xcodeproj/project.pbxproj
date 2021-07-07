@@ -39,13 +39,13 @@
 		607FACE51AFB9204008FA782 /* UICommonLayer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICommonLayer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6EAC8AA08975F6F84BA5B89B /* UICommonLayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UICommonLayer.podspec; path = ../UICommonLayer.podspec; sourceTree = "<group>"; };
+		6EAC8AA08975F6F84BA5B89B /* UICommonLayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UICommonLayer.podspec; path = ../UICommonLayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		88FFFD3F3862F93F6D7B9876 /* Pods-UICommonLayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICommonLayer_Example.release.xcconfig"; path = "Target Support Files/Pods-UICommonLayer_Example/Pods-UICommonLayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		91E64312C300AE620CDA1066 /* Pods-UICommonLayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICommonLayer_Tests.release.xcconfig"; path = "Target Support Files/Pods-UICommonLayer_Tests/Pods-UICommonLayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		937379A9475C67BDF9042C14 /* Pods-UICommonLayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICommonLayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-UICommonLayer_Example/Pods-UICommonLayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		97ACE3271A75DA7293F8BBF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		97ACE3271A75DA7293F8BBF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B95C4BA83F62CB466D06EC58 /* Pods_UICommonLayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UICommonLayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0694C75E2B637AF74B23D62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D0694C75E2B637AF74B23D62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E4D66F6BA166CB5CAB41D3B5 /* Pods_UICommonLayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UICommonLayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				2C98BF3707795319557D135D /* Pods-UICommonLayer_Tests.debug.xcconfig */,
 				91E64312C300AE620CDA1066 /* Pods-UICommonLayer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

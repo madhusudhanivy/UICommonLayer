@@ -1,0 +1,16 @@
+PODS:
+  - UICommonLayer (0.1.0)
+
+DEPENDENCIES:
+  - UICommonLayer (from `../`)
+
+EXTERNAL SOURCES:
+  UICommonLayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UICommonLayer: 3c9fcfc9e1e60e1f1f85f4c85de8834ffcbddf68
+
+PODFILE CHECKSUM: 0f01197442437e0f09cefd0a5bc80287e7217c09
+
+COCOAPODS: 1.10.1
